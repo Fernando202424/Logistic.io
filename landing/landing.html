@@ -115,16 +115,16 @@
         </div>
 
         <div class="field">
-            <label class="label">Premium</label>
+            <label class="label">RepEnt</label>
             <div class="control">
-                <input class="input" type="number" placeholder="Premium" name="Premium" />
+                <input class="input" type="number" placeholder="RepEnt" name="RepEnt" />
             </div>
         </div>
 
         <div class="field">
-            <label class="label">PremFallida</label>
+            <label class="label">RepRec</label>
             <div class="control">
-                <input class="input" type="number" placeholder="PremFallida" name="PremFallida" />
+                <input class="input" type="number" placeholder="RepRec" name="RepRec" />
             </div>
         </div>
 
@@ -192,7 +192,7 @@
             console.log("Hoja de Destino seleccionada:", hojaDestino);  // Agrega esta línea
 
             // Modifica la URL del script para incluir la hoja de destino como parámetro de consulta
-            var scriptUrl = "https://script.google.com/macros/s/AKfycbyZh6SkF1VPZ49UP6IVqIOQH4GNXl45IJSpNj54Y2K7_5gJxP5cx6fCdLJO5SOZgXEPIg/exec?hojaDestino=" + encodeURIComponent(hojaDestino);
+            var scriptUrl = "https://script.google.com/macros/s/AKfycbyk43oC4jgDXaUqB0-C8VxG_A42By9Z9YzkWjCptcYMdxzQe5xanqydTGWkPc1s9i76QA/exec?hojaDestino=" + encodeURIComponent(hojaDestino);
 
             fetch(
                 scriptUrl, // Usa la URL modificada
